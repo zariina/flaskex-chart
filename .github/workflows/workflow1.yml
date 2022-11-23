@@ -24,4 +24,4 @@ jobs:
           namespace:  default
           
       - name: Check Helm List
-        run: helm list 
+        run: helm install myapp ./
